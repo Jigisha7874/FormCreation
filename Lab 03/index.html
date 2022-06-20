@@ -1,0 +1,68 @@
+<!--code by: jigisha pragnesh padhiyar-->
+<!--Date: 28-10-21-->
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Lab_03</title>
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div class="box">
+                <h3>Contact us</h3>
+                <hr> 
+                
+                We would love to hear from you! Leave a message below and we will get back to you shortly.
+
+                <br>
+                <br>
+                <form method="post" action="#">
+                    <table>
+                        <tr>
+                        <td><label for="name">Name<span class="atrisk"> *</span></label></td>
+                        <td><input type="text" name="name" placeholder="Full Name" value=""></td>
+                        </tr>
+                        <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text" name="mail" placeholder="Email Address"></td>
+                        </tr>
+                        <tr>
+                        <td><label for="telephone">Telephone:</label></td>
+                        <td><input type="text" name="number" placeholder="Phone Number" ></td>
+                        </tr>
+                        <tr>
+                        <td><label for="telephone">Contact me by</label></td>
+                        <td>
+                                <input type="radio" id="email" >
+                                <label for="email">Email</label>
+                                <input type="radio" id="phone" >
+                                <label for="phone">Phone</label><br>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="msgtype">Message Type</label></td>
+                            <td>
+                                <select name="msgtype" id="msgtype">
+                                    <option value="inquiry">Inquiry</option>
+                                    <option value="request">Request</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message<span class="atrisk"> *</span></label></td>
+                            <td><textarea rows="6" cols="40" maxlength="350"></textarea></td>
+                        </tr>
+                    </table>
+                    <input type="button" value="Submit" class="submit_butn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
